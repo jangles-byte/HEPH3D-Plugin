@@ -41,6 +41,24 @@ starts its bridge. The bridge only talks to HEPH-3D on your own machine;
 nothing is sent to us. Without HEPH-3D installed, the assistant gets one tool
 that explains where to download it.
 
+The launcher passes its own environment on to the bridge so the bridge can
+find Python and your projects. It reads no keys or tokens and sends nothing
+anywhere.
+
+## Data sent off your computer
+
+- **Nothing to us.** The plugin and the bridge talk only to HEPH-3D on
+  `127.0.0.1`.
+- **A photo or sketch, only if you agree.** HEPH-3D can turn a picture into a
+  3D shape using a free public model on Hugging Face. That uploads the
+  picture to Hugging Face's servers, so the assistant must ask you first, and
+  it is off otherwise.
+- What you type to the assistant, and what it reads from your project, goes
+  to Anthropic or OpenAI as part of your own conversation, under their
+  policies.
+
+Full details: https://heph3d.com/privacy
+
 Needs Node.js 16 or later, which Claude Code and Codex already use.
 
 - Guide: https://heph3d.com/guide
