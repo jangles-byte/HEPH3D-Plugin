@@ -1,0 +1,26 @@
+{
+  "name": "heph3d",
+  "owner": {
+    "name": "Merlin Picks LLC",
+    "email": "contact@heph3d.com",
+    "url": "https://heph3d.com"
+  },
+  "metadata": {
+    "description": "HEPH-3D for Claude Code and Codex."
+  },
+  "plugins": [
+    {
+      "name": "heph",
+      "source": "./",
+      "description": "Design real, buildable machines with HEPH-3D and see them in 3D beside the conversation.",
+      "version": "0.1.10",
+      "author": {
+        "name": "Merlin Picks LLC",
+        "email": "contact@heph3d.com",
+        "url": "https://heph3d.com"
+      },
+      "homepage": "https://heph3d.com",
+      "category": "design"
+    }
+  ]
+}

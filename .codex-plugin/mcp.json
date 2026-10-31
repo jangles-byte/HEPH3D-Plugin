@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "heph": {
+      "command": "node",
+      "args": [
+        "./server/launch.js"
+      ],
+      "cwd": "."
+    }
+  }
+}

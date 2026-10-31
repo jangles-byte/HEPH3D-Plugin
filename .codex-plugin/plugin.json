@@ -1,0 +1,47 @@
+{
+  "name": "heph",
+  "version": "0.1.10",
+  "description": "Design real, buildable machines with HEPH-3D and see them in 3D beside the conversation.",
+  "author": {
+    "name": "Merlin Picks LLC",
+    "email": "contact@heph3d.com",
+    "url": "https://heph3d.com"
+  },
+  "homepage": "https://heph3d.com",
+  "license": "MIT",
+  "keywords": [
+    "3d printing",
+    "cad",
+    "robotics",
+    "electronics",
+    "engineering",
+    "stl",
+    "maker",
+    "design"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.codex-plugin/mcp.json",
+  "interface": {
+    "displayName": "HEPH-3D",
+    "shortDescription": "Design buildable machines",
+    "longDescription": "HEPH-3D is a free desktop app that turns a description into a machine you can actually build: printable parts, real electronics mounted at their true hole patterns, wiring with wire gauges and connectors, a priced parts list and a QC report, all checked before export.\n\nThis connects it to Claude. Ask for a machine and Claude designs it, builds it and fixes what the checks find, while the model turns in 3D beside the conversation. Open it full screen, or in the HEPH-3D app for the full workspace.\n\nNeeds HEPH-3D installed on the same computer (free from heph3d.com). Everything runs locally: your designs never leave your computer except as part of your own conversation with Claude.",
+    "developerName": "Merlin Picks LLC",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://heph3d.com",
+    "supportURL": "mailto:contact@heph3d.com",
+    "privacyPolicyURL": "https://heph3d.com/privacy",
+    "termsOfServiceURL": "https://heph3d.com/legal/terms.md",
+    "defaultPrompt": [
+      "Design a desk fan with a 120 mm fan and a speed knob",
+      "Open my HEPH project and show what fails the checks",
+      "Make a pan-tilt camera mount with two SG90 servos"
+    ],
+    "brandColor": "#2C5DD0",
+    "composerIcon": "./.claude-plugin/icon.png",
+    "logo": "./.claude-plugin/icon.png"
+  }
+}

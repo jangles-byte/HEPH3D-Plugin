@@ -1,0 +1,23 @@
+{
+  "name": "heph",
+  "version": "0.1.10",
+  "description": "Design real, buildable machines with HEPH-3D and see them in 3D beside the conversation.",
+  "author": {
+    "name": "Merlin Picks LLC",
+    "email": "contact@heph3d.com",
+    "url": "https://heph3d.com"
+  },
+  "homepage": "https://heph3d.com",
+  "license": "MIT",
+  "keywords": [
+    "3d printing",
+    "cad",
+    "robotics",
+    "electronics",
+    "engineering",
+    "stl",
+    "maker",
+    "design"
+  ],
+  "icon": ".claude-plugin/icon.png"
+}
