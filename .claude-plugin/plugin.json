@@ -1,5 +1,6 @@
 {
   "name": "heph",
+  "displayName": "HEPH-3D",
   "version": "0.1.10",
   "description": "Design real, buildable machines with HEPH-3D and see them in 3D beside the conversation.",
   "author": {
@@ -8,6 +9,11 @@
     "url": "https://heph3d.com"
   },
   "homepage": "https://heph3d.com",
+  "repository": "https://github.com/jangles-byte/HEPH3D-Plugin",
+  "documentationUrl": "https://heph3d.com/guide",
+  "supportUrl": "mailto:contact@heph3d.com",
+  "privacyPolicyUrl": "https://heph3d.com/privacy",
+  "termsOfServiceUrl": "https://heph3d.com/legal/terms.md",
   "license": "MIT",
   "keywords": [
     "3d printing",
